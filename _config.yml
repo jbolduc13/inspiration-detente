@@ -2,8 +2,8 @@ title: Inspiration Détente
 email: ""
 description: >-
   Massothérapie et bien-être à Granby.
-baseurl: ""
-url: ""
+baseurl: "/inspiration-detente"
+url: "https://jbolduc13.github.io"
 theme: minima
 plugins:
   - jekyll-feed
