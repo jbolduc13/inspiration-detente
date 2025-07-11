@@ -1,0 +1,9 @@
+title: Inspiration Détente
+email: j_bolduc@yahoo.com
+description: >-
+  Massothérapie et bien-être à Granby.
+baseurl: ""
+url: ""
+theme: minima
+plugins:
+  - jekyll-feed
