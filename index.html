@@ -9,16 +9,29 @@
     html {
       scroll-behavior: smooth;
     }
+    body {
+        background-color: #1f4615;
+        color: #ebe9ec;
+    }
     .hero {
-      background-color: #e6f2e6;
-      padding: 4rem 1rem;
-      text-align: center;
+        background-image: url("_images/hero_background.jpg");
+        background-size: cover;
+        background-repeat: no-repeat; /* pour éviter la répétition */
+        background-position: center center; /* centrer l’image */
+        padding: 4rem 1rem;
+        text-align: center;
+        height: 950px;
     }
     .footer {
       background-color: #f8f9fa;
       padding: 2rem 1rem;
       text-align: center;
       font-size: 0.9rem;
+    }
+    @media (max-width: 768px) {
+        .hero {
+            height: 600px;           
+        }
     }
   </style>
 </head>
@@ -46,8 +59,10 @@
 
   <header class="hero">
     <div class="container">
+        <img src="_images/principal_flow_rvb.png" alt="Inspiration Détente: Massothérapie et bien-être à Granby" width="200" />
       <h1 class="display-5 text-success">Retrouve ta zénitude</h1>
-      <p class="lead">Massothérapie et bien-être à Granby</p>
+      <p class="lead">Lorsque tu prends régulièrement du temps pour toi-même, le bien-être ressenti peut
+imprégner chaque sphère de ta vie avec plus d’énergie et de paix.</p>
       <a href="https://www.gorendezvous.com/massage" class="btn btn-primary mt-3">Prendre rendez-vous</a>
     </div>
   </header>
