@@ -1,3 +1,4 @@
+  //Gestion de la fermeture du menu
   document.addEventListener('DOMContentLoaded', function() {
 
     // Sélecteur du menu mobile (collapse)
@@ -30,3 +31,28 @@
     document.addEventListener('touchstart', handleOutside);
 
   });
+
+  //Gestion du scrolling du menu
+  document.addEventListener('DOMContentLoaded', () => {
+    const navLinks = document.querySelectorAll('.nav-link[href^="#"]'); // Select all internal anchor links
+    const navbar = document.querySelector('.navbar'); // Select your navbar element
+
+    navLinks.forEach(link => {
+        link.addEventListener('click', function(e) {
+            e.preventDefault();
+
+            const targetId = this.getAttribute('href');
+            const targetSection = document.querySelector(targetId);
+
+            if (targetSection && navbar) {
+                const navbarHeight = navbar.offsetHeight;
+                const offsetPosition = targetSection.offsetTop - navbarHeight;
+
+                window.scrollTo({
+                    top: offsetPosition,
+                    behavior: 'smooth'
+                });
+            }
+        });
+    });
+});
