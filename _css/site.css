@@ -6,17 +6,6 @@
         font-style: normal; /* Optional: Define font style (e.g., normal, italic) */
         font-display: swap; /* Optional: Controls font loading behavior for performance */
     }
-
-/*    @font-face {
-        font-family: "Quicksand"; /* A name you choose for your font 
-        src: url("../_fonts/Quicksand-Regular.otf") format("opentype"), /* Path to your OTF file 
-             url("../_fonts/Quicksand-Bold.otf") format("opentype"), /* Path to your OTF file 
-             url("../_fonts/Quicksand-Light.otf") format("opentype"); /* Path to your OTF file 
-        font-weight: normal; /* Optional: Define font weight (e.g., normal, bold, 400, 700) 
-        font-style: normal; /* Optional: Define font style (e.g., normal, italic) 
-        font-display: swap; /* Optional: Controls font loading behavior for performance 
-    }
-*/
     html {
       scroll-behavior: smooth;
     }
@@ -24,9 +13,13 @@
         background-color: #1f4615;
         color: #ebe9ec;
     }
+    .navbar-brand {
+      white-space:unset;
+    }
     h1.titre-principal {
       line-height: 15px;
       font-family: 'Quicksand';
+      word-wrap: normal;
     }
     h2 {
       font-family: 'Alisha';
