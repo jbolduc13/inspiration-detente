@@ -21,7 +21,7 @@
       scroll-behavior: smooth;
     }
     body {
-        background-color: #ffffff;
+        background-color: #1f4615;
         color: #ebe9ec;
     }
     h1.titre-principal {
@@ -122,12 +122,12 @@
 
     @media (max-width: 768px) {
         .hero {
-            height: 800px;           
+            height: 650px;           
         }
     }
 
     @media (max-width: 576px) {
         .hero {
-            height: 800px;           
+            height: 750px;           
         }
     }
