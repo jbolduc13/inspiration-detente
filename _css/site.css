@@ -122,12 +122,12 @@
 
     @media (max-width: 768px) {
         .hero {
-            height: 650px;           
+            height: 675px;           
         }
     }
 
     @media (max-width: 576px) {
         .hero {
-            height: 750px;           
+            height: 800px;           
         }
     }
