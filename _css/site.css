@@ -1,3 +1,5 @@
+   @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap&subset=latin-ext');
+   
    @font-face {
         font-family: "Alisha"; /* A name you choose for your font */
         src: url("../_fonts/Alisha.ttf") format("truetype"), /* Path to your TTF file */
