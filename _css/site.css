@@ -95,7 +95,12 @@
       color: #1f4615;
       border-color: #1f4615;
     }
-
+    .btn-link {
+      color: #ffffff;
+    }    
+    .btn-link:hover {
+      color: #cdd881;
+    }
     .overlay {
       position: absolute;
       top: 0;
