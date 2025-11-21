@@ -14,6 +14,7 @@
     body {
         background-color: #1f4615;
         color: #ebe9ec;
+        font-family: 'Quicksand';
     }
     .navbar-brand {
       white-space:unset;
