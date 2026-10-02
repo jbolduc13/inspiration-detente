@@ -19,10 +19,15 @@
     .navbar-brand {
       white-space:unset;
     }
-    h1.titre-principal {
+    .nom-entreprise {
       line-height: 15px;
       font-family: 'Quicksand';
       word-wrap: normal;
+    }
+    h1 {
+      font-family: 'Alisha';
+      color: #ebe9ec;
+      font-size: 64px; 
     }
     h2 {
       font-family: 'Alisha';
